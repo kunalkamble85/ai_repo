@@ -1,0 +1,4 @@
+digraph G {
+	node [color=lightblue2 style=filled]
+	logout -> gotoxy
+}

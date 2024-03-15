@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ai_repo.iml" filepath="$PROJECT_DIR$/.idea/ai_repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data_comparision/.idea/data_comparision.iml" filepath="$PROJECT_DIR$/data_comparision/.idea/data_comparision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphviz_project/.idea/graphviz_project.iml" filepath="$PROJECT_DIR$/graphviz_project/.idea/graphviz_project.iml" />
     </modules>
   </component>
 </project>

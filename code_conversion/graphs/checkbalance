@@ -1,0 +1,24 @@
+digraph G {
+	node [color=lightblue2 style=filled]
+	checkbalance -> gotoxy
+	checkbalance -> display
+	display -> transfermoney
+	transfermoney -> gotoxy
+	transfermoney -> display
+	display -> checkbalance
+	display -> account
+	account -> accountcreated
+	accountcreated -> account
+	accountcreated -> gotoxy
+	accountcreated -> login
+	login -> gotoxy
+	login -> loginsu
+	loginsu -> account
+	loginsu -> gotoxy
+	loginsu -> login
+	login -> display
+	display -> logout
+	logout -> gotoxy
+	display -> gotoxy
+	display -> login
+}
