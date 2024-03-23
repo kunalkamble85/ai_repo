@@ -1,2 +1,4 @@
 .idea/*
-document_based_chat/apps/__pycache__/*
+*/.env
+*.pyc
+*.zip

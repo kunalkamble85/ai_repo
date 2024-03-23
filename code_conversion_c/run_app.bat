@@ -1,0 +1,1 @@
+C:/Users/kkamble.I-FLEX/AppData/Local/miniconda3/envs/python3.10/python.exe c:/kunal/work/repo/ai_repo/code_conversion_c/apps/splitted_python_code/main.py

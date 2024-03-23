@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>C Code Explanation - display Function</title>
+</head>
+<body>
+
+<h2>Explanation of C Code - display Function</h2>
+
+<ol>
+  <li>Clearing the screen and declaring variables.</li>
+  
+  <li>Opening the "username.txt" file in binary mode for reading.</li>
+  
+  <li>Declaration of a structure variable <code>u1</code>.</li>
+  
+  <li>Checking if the file pointer <code>fp</code> is <code>NULL</code>. If <code>NULL</code>, prints an error message.</li>
+  
+  <li>Looping through the file to read user records.</li>
+  
+  <li>Checking if the <code>username1</code> matches the username in the record. If matched, displays user account information.</li>
+  
+  <li>Printing user account information including name, father's name, mother's name, Aadhar card number, mobile number, date of birth, address, and account type.</li>
+  
+  <li>Closing the file.</li>
+  
+  <li>Displaying a menu for different actions a user can perform.</li>
+  
+  <li>Prompting the user to enter their choice.</li>
+  
+  <li>Using a <code>switch</code> statement to perform actions based on user input:</li>
+  <ul>
+    <li><code>1</code>: Calls the <code>checkbalance</code> function.</li>
+    <li><code>2</code>: Calls the <code>transfermoney</code> function.</li>
+    <li><code>3</code>: Calls the <code>logout</code> function and then the <code>login</code> function.</li>
+    <li><code>4</code>: Exits the program.</li>
+  </ul>
+</ol>
+
+</body>
+</html>
